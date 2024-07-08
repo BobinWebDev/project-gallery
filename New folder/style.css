@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    column-count: 5;
+    column-gap: 30px;
+    max-width: 1400px;
+    margin: auto;
+    padding: 34px;
+}
+
+.box {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
